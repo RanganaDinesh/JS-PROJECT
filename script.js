@@ -12,9 +12,9 @@ function startTime() {
     if (hour < 08) {
         var greet ="GOOD MORNING!! WAKE UP !!";
     }
-    else if(hour > 13 ){
+     if(hour > 13 ){
         var greet ="GOOD AFTERNOON !! TAKE SOME SLEEP";
-    } else if (hour >= 16 ) {
+    }  if (hour >= 16 ) {
         var greet ="GOOD EVENING !!";
     } if(hour >= 20){
         var greet ="GOOD NIGHT !!"
@@ -24,7 +24,7 @@ function startTime() {
 if(hour >= 13 ){
         var greet1 = "LET'S HAVE SOME LUNCH !!";
         box22.src = "./Assessts/Component 31 – 1.jpg";
-    } else if (hour >= 16 ) {
+    }  if (hour >= 16 ) {
         var greet1 = "STOP YAWNING, GET SOME TEA.. ITS JUST EVENING!";
         box22.src = "./Assessts/lunch_image.jpg";
     }  if(hour >= 20 ){
